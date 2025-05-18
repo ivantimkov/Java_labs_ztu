@@ -1,0 +1,45 @@
+2025-05-18 20:48:52 INFO  Main:19 - Початок виконання програми
+2025-05-18 20:48:52 ERROR Main:27 - Помилка при серіалізації
+java.io.NotSerializableException: com.education.ztu.game.Team
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1201)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:359)
+	at Main.main(Main.java:24)
+2025-05-18 20:48:52 ERROR Main:35 - Помилка при десеріалізації
+java.io.WriteAbortedException: writing aborted; java.io.NotSerializableException: com.education.ztu.game.Team
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1757)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486)
+	at Main.main(Main.java:32)
+Caused by: java.io.NotSerializableException: com.education.ztu.game.Team
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1201)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:359)
+	at Main.main(Main.java:24)
+2025-05-18 20:48:52 INFO  Main:41 - Об'єкт у форматі JSON: {"name":"Champions","participants":[]}
+2025-05-18 20:48:52 INFO  Main:43 - Об'єкт після десеріалізації з JSON: Champions
+2025-05-18 20:48:52 INFO  Main:54 - Читання XML: root = team
+2025-05-18 20:48:52 INFO  Main:67 - XML файл оновлено та збережено.
+2025-05-18 20:48:52 INFO  Main:72 - Кінець виконання програми
+2025-05-18 20:52:28 INFO  Main:19 - Початок виконання програми
+2025-05-18 20:52:28 INFO  Main:25 - Серіалізація пройшла успішно.
+2025-05-18 20:52:28 INFO  Main:33 - Десеріалізований об'єкт: Champions
+2025-05-18 20:52:28 INFO  Main:41 - Об'єкт у форматі JSON: {"name":"Champions","participants":[]}
+2025-05-18 20:52:28 INFO  Main:43 - Об'єкт після десеріалізації з JSON: Champions
+2025-05-18 20:52:28 INFO  Main:54 - Читання XML: root = team
+2025-05-18 20:52:28 INFO  Main:67 - XML файл оновлено та збережено.
+2025-05-18 20:52:28 INFO  Main:72 - Кінець виконання програми
+2025-05-18 20:57:34 INFO  Main:19 - Початок виконання програми
+2025-05-18 20:57:34 INFO  Main:25 - Серіалізація пройшла успішно.
+2025-05-18 20:57:34 INFO  Main:33 - Десеріалізований об'єкт: Champions
+2025-05-18 20:57:34 INFO  Main:41 - Об'єкт у форматі JSON: {"name":"Champions","participants":[]}
+2025-05-18 20:57:34 INFO  Main:43 - Об'єкт після десеріалізації з JSON: Champions
+2025-05-18 20:57:34 INFO  Main:54 - Читання XML: root = team
+2025-05-18 20:57:34 INFO  Main:67 - XML файл оновлено та збережено.
+2025-05-18 20:57:34 INFO  Main:72 - Кінець виконання програми
+2025-05-18 20:58:45 INFO  Main:19 - Початок виконання програми
+2025-05-18 20:58:45 INFO  Main:25 - Серіалізація пройшла успішно.
+2025-05-18 20:58:45 INFO  Main:33 - Десеріалізований об'єкт: Champions
+2025-05-18 20:58:45 INFO  Main:41 - Об'єкт у форматі JSON: {"name":"Champions","participants":[]}
+2025-05-18 20:58:45 INFO  Main:43 - Об'єкт після десеріалізації з JSON: Champions
+2025-05-18 20:58:45 INFO  Main:54 - Читання XML: root = team
+2025-05-18 20:58:45 INFO  Main:67 - XML файл оновлено та збережено.
+2025-05-18 20:58:45 INFO  Main:72 - Кінець виконання програми
